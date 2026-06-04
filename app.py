@@ -401,4 +401,4 @@ if st.session_state.show_form:
             update_product_percent()
             st.success("✅ Transaction saved!")
             st.session_state.show_form = False
-            st.experimental_rerun().
+            st.experimental_rerun()
